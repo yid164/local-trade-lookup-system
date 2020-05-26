@@ -5,7 +5,7 @@ import Browsing from "@/views/Browsing";
 import Contact from "@/views/Contact";
 import Symbol from "@/views/Symbol";
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
   const routes = [
     {
@@ -33,12 +33,12 @@ Vue.use(VueRouter)
       name: 'Symbol',
       component: Symbol
     },
-]
+];
 
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes
-})
+});
 
 export default router
